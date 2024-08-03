@@ -164,6 +164,21 @@ function enc(n, d)
   end
 end
 
+-- Keys
+function key(n, z)
+  if z == 1 then
+    if n == 3 then
+      if Midi.RUNNING then
+        midi.RUNNING = 0
+        clock.transport.stop()
+      else
+        midi.RUNNING = 1
+        clock.transport.start()
+      end
+    end
+  end
+end
+
 -- Start here
 function init()
   params:add_separator("ASP")

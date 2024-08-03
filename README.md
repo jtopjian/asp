@@ -2,7 +2,7 @@
 
 A random MIDI snake sequencer for [Norns](https://monome.org/docs/norns/).
 
-![Asp](doc/asp.png)
+![Asp](doc/asp.gif)
 
 ## About
 
